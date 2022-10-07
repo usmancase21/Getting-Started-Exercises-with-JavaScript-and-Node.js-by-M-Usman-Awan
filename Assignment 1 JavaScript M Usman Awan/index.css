@@ -1,0 +1,22 @@
+*{
+    font-family: sans-serifs;
+  }
+  li {
+  list-style-type: none;
+  position:relative;
+  margin-bottom:0.5em;
+}
+li:before {
+  content: '•';
+  display: inline-block;
+  position: absolute;
+  left: -1em;
+
+}
+a{
+  text-decoration: none;
+}
+.explaination_text{
+    margin-top: 50px;
+    font-size: 14px;
+}
